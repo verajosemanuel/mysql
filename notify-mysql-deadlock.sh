@@ -4,7 +4,7 @@
 # Notification sent on new deadlocks only
 # monuser must have "PROCESS" permission in mysql server
 # Set EXCLUDE_PTRN to avoid alerting if the pattern was found
-#
+# needs a config file with [client] user password creds
 blk=$(tput blink)
 bld=$(tput bold)           	 # Bold
 red=${bld}$(tput setaf 1)    # Red
